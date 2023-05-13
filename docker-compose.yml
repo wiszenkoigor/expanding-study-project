@@ -1,0 +1,25 @@
+services:
+  db:
+    ports:
+      - 5432:5432
+    container_name: postgresql_con
+    image: postgres
+    environment:
+      - POSTGRES_DB=TODODB
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=admin
+    volumes:
+      - /home/wigor/coding/java/expanding-study-project/postgres_data_volume:/var/lib/postgresql/data
+    restart: always
+  backend:
+    build: .
+    container_name: todo_app_con
+    ports:
+      - 8080:8080
+    environment:
+      db-url: jdbc:postgresql://db:5432/TODODB
+      db-username: admin
+      db-password: admin
+    depends_on:
+      - db
+    restart: always
