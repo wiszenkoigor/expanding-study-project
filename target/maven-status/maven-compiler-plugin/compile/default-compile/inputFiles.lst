@@ -1,6 +1,0 @@
-/home/wigor/coding/java/spring-boot-3-todo-application/spring-boot-3-todo-application/src/main/java/com/example/springboot3todoapplication/SpringBoot3TodoApplication.java
-/home/wigor/coding/java/spring-boot-3-todo-application/spring-boot-3-todo-application/src/main/java/com/example/springboot3todoapplication/services/TodoItemService.java
-/home/wigor/coding/java/spring-boot-3-todo-application/spring-boot-3-todo-application/src/main/java/com/example/springboot3todoapplication/repositories/TodoItemRepository.java
-/home/wigor/coding/java/spring-boot-3-todo-application/spring-boot-3-todo-application/src/main/java/com/example/springboot3todoapplication/models/TodoItem.java
-/home/wigor/coding/java/spring-boot-3-todo-application/spring-boot-3-todo-application/src/main/java/com/example/springboot3todoapplication/controllers/HomeController.java
-/home/wigor/coding/java/spring-boot-3-todo-application/spring-boot-3-todo-application/src/main/java/com/example/springboot3todoapplication/controllers/TodoFormController.java
